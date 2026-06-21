@@ -62,7 +62,7 @@ about this by reading the [rusty-mesh documentation](https://github.com/okpainmo
 
 - Docker with the Compose plugin
 - Rust, for local service development outside Docker
-- Bun, for root repository tooling
+- Bun, for project root static-analysis tooling
 - `sqlx-cli`, only when running auth migrations manually outside Compose
 
 The fastest path to a complete project start-up is Docker Compose. For that, Rust and the `sqlx-cli`
